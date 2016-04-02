@@ -1,24 +1,6 @@
-# git_bash
-
-
 ---
 
-### Manual installation
-* Clone or Download the Zip file from Github
-* Copy the `Gallery` folder to your app plugins folder: `app/Plugin/`
-* Rename the `app/Plugin/Gallery/Config/config.php.install` file to **config.php**
-* Import the SQL file `app/Plugin/Gallery/Config/cakegallery.sql` to your database
-* Open your `app/Config/bootstrap.php` file and add the following code
-
-```php
-CakePlugin::load(array(
-	'Gallery' => array(
-   	'bootstrap' => true,
-    'routes' => true
-)));
-```
-* Create a **gallery** folder inside `app/webroot/files` and give it writable permissions. (`app/webroot/files/gallery`)
-
-* Check at `http://your-app-url/gallery` to see your plugin working.
-
+### Git bash Dutra
+* **Facebook** [https://www.facebook.com/lucas.dutra.7165](https://www.facebook.com/lucas.dutra.7165)
+[![Album page](https://scontent-gru2-1.xx.fbcdn.net/hphotos-xpl1/v/t1.0-9/12299158_1076410992371305_5694057121259791111_n.jpg?oh=56bec32266341d6303cd147accb47d65&oe=5786DC1B)]
 ---
